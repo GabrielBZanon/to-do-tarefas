@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+.status-column {
+    min-height: 70vh;
+}
+
+.task-card {
+    margin-bottom: 1rem;
+    border-left: 4px solid;
+}
+
+.task-card.low {
+    border-left-color: #28a745;
+}
+
+.task-card.medium {
+    border-left-color: #ffc107;
+}
+
+.task-card.high {
+    border-left-color: #dc3545;
+}
+
+.priority-badge {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.badge-low {
+    background-color: #28a745;
+}
+
+.badge-medium {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.badge-high {
+    background-color: #dc3545;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.25rem rgba(0, 86, 179, 0.25);
+}
